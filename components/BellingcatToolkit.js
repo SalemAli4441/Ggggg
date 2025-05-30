@@ -10,7 +10,7 @@ export default function BellingcatToolkit() {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    fetch('/data/tools.json')
+    fetch('/tools.json')
       .then(res => res.json())
       .then(data => setTools(data));
   }, []);
