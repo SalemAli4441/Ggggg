@@ -1,17 +1,462 @@
 [
   {
-    "name": "Whois Lookup",
-    "description": "Search domain registration details.",
-    "url": "https://who.is"
+    "name": "Archive.today",
+    "description": "Archive any webpage, including Facebook and search for archived pages.",
+    "url": "https://archive.today"
   },
   {
-    "name": "Google Dorks",
-    "description": "Use advanced Google queries to find open directories and files.",
-    "url": "https://www.exploit-db.com/google-hacking-database"
+    "name": "Auto Archiver",
+    "description": "Bellingcat's tool to automatically archive social media posts, videos, and images. Free and Open-Source.",
+    "url": "https://github.com/bellingcat/auto-archiver"
   },
   {
-    "name": "Shodan",
-    "description": "Search for devices connected to the internet.",
-    "url": "https://www.shodan.io/"
-  }
-]
+    "name": "Bellingcat TikTok Hashtag Analysis",
+    "description": "Archive content and metadata from TikTok posts that contain one or more specified hashtags",
+    "url": "https://github.com/bellingcat/tiktok-hashtag-analysis"
+  },
+  {
+    "name": "Distill.io",
+    "description": "Distill.io is a website change monitoring tool that allows users to track changes on web pages.",
+    "url": "https://distill.io/"
+  },
+  {
+    "name": "Hunchly",
+    "description": "An archiving tool that tracks online activities and preserves essential information about the web pages researchers visit.",
+    "url": "https://www.hunch.ly/"
+  },
+  {
+    "name": "Instant Data Scraper",
+    "description": "Browser extension for simple web scraping, with table output.",
+    "url": "https://webrobots.io/instantdata/"
+  },
+  {
+    "name": "Wayback Machine",
+    "description": "The Internet Archive's Wayback Machine lets users view and archive web pages, aiding in historical research and digital preservation.",
+    "url": "https://web.archive.org/"
+  },
+  {
+    "name": "Lumen",
+    "description": "A research project collecting and publishing legal takedown notices for online content transparency",
+    "url": "https://lumendatabase.org/"
+  },
+  {
+    "name": "Web Archives",
+    "description": "A browser extension to view archived and cached versions of a website on multiple archiving sites.",
+    "url": "https://apps.apple.com/us/app/web-archives-for-safari/id1603181853?platform=mac"
+  },
+  {
+    "name": "527 Explorer",
+    "description": "ProPublica's 527 Explorer is a database that allows users to examine the finances of organizations known as 527s in the United States, which can raise unlimited sums for political purposes.",
+    "url": "https://projects.propublica.org/527-explorer/"
+  },
+  {
+    "name": "China-related resources",
+    "description": "Resources for research on companies in China.",
+    "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/china-related-resources"
+  },
+  {
+    "name": "Companies House",
+    "description": "Search companies and individuals in the United Kingdom and Gibraltar.",
+    "url": "https://find-and-update.company-information.service.gov.uk/"
+  },
+  {
+    "name": "EDGAR",
+    "description": "Database of corporate filings for the US",
+    "url": "https://www.sec.gov/edgar/search/"
+  },
+  {
+    "name": "EDGAR Command Line Interface (edgar-tool)",
+    "description": "Tool for the retrieval of corporate and financial data from SEC's EDGAR (Electronic Data Gathering, Analysis, and Retrieval) database.",
+    "url": "https://pypi.org/project/edgar-tool/"
+  },
+  {
+    "name": "Etherscan",
+    "description": "An explorer that allows researchers to track wallets, transactions and more on the Ethereum blockchain.",
+    "url": "https://etherscan.io/"
+  },
+  {
+    "name": "EU consolidated corporate registers",
+    "description": "Consolidated company registers covering most of the EU, Iceland Liechtenstein and Norway.",
+    "url": "https://e-justice.europa.eu/content_find_a_company-489-en.do"
+  },
+  {
+    "name": "Global Suppliers Online",
+    "description": "A site dedicated to connect suppliers and buyers of goods from all over the world.",
+    "url": "https://www.globalsuppliersonline.com/"
+  },
+  {
+    "name": "ICIJ Offshore Leaks Database",
+    "description": "Find out who’s behind more than 810k offshore companies, foundations and trusts from the Panama Papers, the Offshore Leaks, the Bahamas Leaks and the Paradise Papers investigations.",
+    "url": "http://offshoreleaks.icij.org/"
+  },
+  {
+    "name": "ImportGenius",
+    "description": "Commercial supplier of shipment data for 19 countries.",
+    "url": "https://www.importgenius.com/"
+  },
+  {
+    "name": "ImportYeti",
+    "description": "Search 60 million US customs sea shipment records, find company suppliers.",
+    "url": "https://www.importyeti.com/"
+  },
+  {
+    "name": "LittleSis",
+    "description": "Connects dots between influential / wealthy individuals in (mostly US) politics and business.",
+    "url": "https://littlesis.org/database"
+  },
+  {
+    "name": "Lumen",
+    "description": "A research project collecting and publishing legal takedown notices for online content transparency",
+    "url": "https://lumendatabase.org/"
+  },
+  {
+    "name": "North Data",
+    "description": "Search for people and companies in EU corporate and trade registers + visualize relationships",
+    "url": "https://northdata.com"
+  },
+  {
+    "name": "OCCRP Aleph",
+    "description": "Aleph offers a way to research sanctions lists, corporate registries, leaks, and more",
+    "url": "https://aleph.occrp.org/"
+  },
+  {
+    "name": "Open Ownership",
+    "description": "Links to beneficial ownership registers.",
+    "url": "https://www.openownership.org/en/"
+  },
+  {
+    "name": "OpenCorporates",
+    "description": "Comprehensive repository of company registries around the world",
+    "url": "https://opencorporates.com/"
+  },
+  {
+    "name": "OpenSanctions",
+    "description": "Open-source international database of sanctions data, persons of interest and politically exposed persons.",
+    "url": "https://www.opensanctions.org/"
+  },
+  {
+    "name": "OpenSecrets",
+    "description": "Data on campaign finance, lobbying, and spending in U.S. politics",
+    "url": "https://www.opensecrets.org/"
+  },
+  {
+    "name": "Osint Tools Map",
+    "description": "An interactive worldwide map, showcasing business registries, court records, and other publicly available information to aid OSINT investigations and research.",
+    "url": "https://cybdetective.com/osintmap/"
+  },
+  {
+    "name": "RuPEP",
+    "description": "Online database of politically exposed persons in Russia, Belarus and Kazakhstan.",
+    "url": "https://rupep.org/en/"
+  },
+  {
+    "name": "SanctionsExplorer",
+    "description": "A comprehensive database of current and historical OFAC/UN/EU sanctions",
+    "url": "https://sanctionsexplorer.org/"
+  },
+  {
+    "name": "UN Comtrade Database",
+    "description": "United Nations free database of global trade.",
+    "url": "https://comtradeplus.un.org/"
+  },
+  {
+    "name": "Wikipedia list of registers",
+    "description": "Wikipedia list of official business registers around the world.",
+    "url": "https://en.wikipedia.org/wiki/List_of_official_business_registers"
+  },
+  {
+    "name": "ACLED (Armed Conflict Location & Event Data Project)",
+    "description": "ACLED provides data and analysis on political violence and protest around the world, facilitating research, policy making, and journalistic reporting.",
+    "url": "https://acleddata.com/"
+  },
+  {
+    "name": "Bulletpicker.com",
+    "description": "Bulletpicker.com is a collection of ammunition guidebooks and manuals from several different armed forces.",
+    "url": "https://www.bulletpicker.com/index.html"
+  },
+  {
+    "name": "CAT UXO",
+    "description": "A repository for professionals working in the explosive ordnance disposal (EOD) space.",
+    "url": "https://cat-uxo.com/"
+  },
+  {
+    "name": "LiveUAMap",
+    "description": "LiveUAMap is a mapping tool that provides up-to-date information on global geopolitical events, conflicts, and crises.",
+    "url": "https://liveuamap.com/"
+  },
+  {
+    "name": "Open Source Munitions Portal",
+    "description": "A tool for researchers, journalists and practitioners trying to learn more about munitions and their use and impact in conflict.",
+    "url": "https://osmp.airwars.org/"
+  },
+  {
+    "name": "Atlos",
+    "description": "ATLOS is a platform for collaborative and large-scale open source investigations.",
+    "url": "https://www.atlos.org/"
+  },
+  {
+    "name": "Blender",
+    "description": "Blender is an open-source 3D creation suite supporting the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing, and motion tracking, even video editing.",
+    "url": "https://www.blender.org/"
+  },
+  {
+    "name": "Datawrapper",
+    "description": "A tool for creating interactive charts, maps, and tables from your data, offering a user-friendly interface for visualizing information.",
+    "url": "https://www.datawrapper.de/"
+  },
+  {
+    "name": "Gephi",
+    "description": "Open-source network analysis and visualization software",
+    "url": "https://gephi.org"
+  },
+  {
+    "name": "Logseq",
+    "description": "Logseq is an open-source knowledge management tool that enables users to organize their notes, tasks, and projects.",
+    "url": "https://logseq.com/"
+  },
+  {
+    "name": "Maltego Graph",
+    "description": "Maltego Graph is an investigation platform that combines two things at once: (1) It acts as a search tool, and (2) It creates a graph establishing links between data you uncover from your search.",
+    "url": "https://www.maltego.com/"
+  },
+  {
+    "name": "Obsidian",
+    "description": "A knowledge management and note-taking app with extensive customization options.",
+    "url": "https://obsidian.md/"
+  },
+  {
+    "name": "Pinpoint",
+    "description": "A tool by Google to catalogue uploaded documents and files, providing OCR, indexing, and other services. Full access only granted to journalists, academic researchers and university students.",
+    "url": "https://journaliststudio.google.com/pinpoint/about"
+  },
+  {
+    "name": "QGIS",
+    "description": "QGIS is a free Open Source Geographic Information System (GIS).",
+    "url": "https://www.qgis.org"
+  },
+  {
+    "name": "RAWGraphs",
+    "description": "RAWGraphs is an open-source data visualization tool designed for non-technical users, enabling the creation of customizable, editable charts without coding skills.",
+    "url": "https://app.rawgraphs.io/"
+  },
+  {
+    "name": "Time.Graphics",
+    "description": "A tool for creating, visualizing, and managing timelines online.",
+    "url": "https://time.graphics"
+  },
+  {
+    "name": "AllTrails",
+    "description": "AllTrails.com is a tool for discovering hiking, biking, and running trails worldwide, providing detailed trail maps, user reviews, and navigation support for outdoor enthusiasts.",
+    "url": "https://www.alltrails.com/"
+  },
+  {
+    "name": "Amazonia Socio Ambiental",
+    "description": "Amazon rainforest maps and shapefiles of natural protected areas, concessions, indigenous territories, oil, mining, roads, fires, deforestation in bolivia, brazil, colombia, ecuador, guyanas and suriname, peru, venezuela",
+    "url": "https://www.amazoniasocioambiental.org/en/"
+  },
+  {
+    "name": "Aquaduct Water Risk Atlas",
+    "description": "Water and drought risks mapped, globally.",
+    "url": "https://wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false\\&basemap=hydro\\&indicator=bwd\\_cat\\&lat=40.979898069620155\\&lng=13.293457031250002\\&mapMode=view\\&month=1\\&opacity=0.5\\&ponderation=DEF\\&predefined=false\\&projection=absolute\\&scenario=optimistic\\&scope=baseline\\&timeScale=annual\\&year=baseline\\&zoom=5"
+  },
+  {
+    "name": "BirdNet",
+    "description": "Identify bird sounds - find bird sounds on a global map.",
+    "url": "https://birdnet.cornell.edu/map"
+  },
+  {
+    "name": "CITES Trade Database",
+    "description": "Around 23 million records of trade in wildlife since 1975.",
+    "url": "https://trade.cites.org/"
+  },
+  {
+    "name": "CryO Tools",
+    "description": "Scientific tools for investigating the cryosphere (areas with snow & ice)",
+    "url": "https://cryo-tools.org/"
+  },
+  {
+    "name": "Environmental Justice Atlas",
+    "description": "Map of environmental-related conflict globally",
+    "url": "https://ejatlas.org/"
+  },
+  {
+    "name": "Global Fishing Watch Map",
+    "description": "The Global Fishing Watch Map is a digital platform for investigating fishing activities worldwide by utilising satellite and AIS data.",
+    "url": "https://globalfishingwatch.org/map"
+  },
+  {
+    "name": "Global Forest Watch",
+    "description": "It helps to detect changes in forest cover (i.e., to track deforestation), fires, land use, and more. It also includes Global Fire Watch (VIRSS data)",
+    "url": "https://www.globalforestwatch.org/"
+  },
+  {
+    "name": "Global Monitoring System - ECOSOLVE",
+    "description": "Illicit online wildlife markets data from Brazil, South Africa and Thailand.",
+    "url": "https://www.ecosolve.eco/dashboard"
+  },
+  {
+    "name": "Google Flood Hub",
+    "description": "A visual tool to monitor river levels and forecast floods based on AI models developed by Google Research.",
+    "url": "https://sites.research.google/floods/"
+  },
+  {
+    "name": "Merlin",
+    "description": "Identify birds (visually), through an app.",
+    "url": "https://merlin.allaboutbirds.org/"
+  },
+  {
+    "name": "Movebank",
+    "description": "Platform for animal tracking data.",
+    "url": "https://www.movebank.org/"
+  },
+  {
+    "name": "Resource Watch",
+    "description": "A nonprofit platform, still in beta, that provides hundreds of data sets on the state of the planet’s resources and citizens. It is sponsored by the World Resources Institute and other organizations.",
+    "url": "https://resourcewatch.org/data/explore"
+  },
+  {
+    "name": "River Runner Global",
+    "description": "Calculate which water stream a drop of rain will follow",
+    "url": "https://river-runner-global.samlearner.com/"
+  },
+  {
+    "name": "UNOSAT Analyses",
+    "description": "UNOSAT Analyses is a tool that maps humanitarian emergencies across the globe utilising United Nations Satellite Centre data.",
+    "url": "https://unosat.org/products"
+  },
+  {
+    "name": "WildEye",
+    "description": "Tracking tool for data on environmental and wildlife crime cases, including court cases and convictions, across the globe.",
+    "url": "https://global.wildeye.oxpeckers.org/"
+  },
+  {
+    "name": "Wildlife Trade Portal",
+    "description": "An open-source tool to search wildlife seizure data worldwide.",
+    "url": "https://www.wildlifetradeportal.org/"
+  },
+  {
+    "name": "WildMe & WildBook",
+    "description": "Open source pattern recognition software to identify unique whales, sharks, zebras, jaguars, skunks, fish and much more.",
+    "url": "https://wildme.org/#/platforms/bass"
+  },
+  {
+    "name": "World Database Protected Areas",
+    "description": "The most comprehensive global database on terrestrial and marine protected areas.",
+    "url": "https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA"
+  },
+  {
+    "name": "GeoHints",
+    "description": "GeoHints is a website that provides information about things like traffic lights, utility poles, bollards etc. for different regions of the world to help geolocate a location.",
+    "url": "https://geohints.com/"
+  },
+  {
+    "name": "Geolocation Estimation",
+    "description": "A geolocation tool using a deep-learning model to predict the location of an image.",
+    "url": "https://labs.tib.eu/geoestimation/"
+  },
+  {
+    "name": "GeoNames",
+    "description": "The GeoNames geographical database covers all countries and contains over eleven million place names that are available for download free of charge Extremely useful in Geo Tagging, documentation, and data collection.",
+    "url": "http://www.geonames.org/"
+  },
+  {
+    "name": "License Plate Maps",
+    "description": "Collection of tools and maps for discerning license plates by country",
+    "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/license-plate-maps"
+  },
+  {
+    "name": "MW Geofind",
+    "description": "MW Geofind is a tool designed to help users identify the filming location of YouTube videos, facilitating the exploration of global content from a geographical perspective.",
+    "url": "https://mattw.io/youtube-geofind/location"
+  },
+  {
+    "name": "Bellingcat OpenStreetMap Search",
+    "description": "A user interface to search OpenStreetMap data for features in proximity to each other.",
+    "url": "https://osm-search.bellingcat.com/"
+  },
+  {
+    "name": "Photo-Map.RU",
+    "description": "Geotagged VK posts.",
+    "url": "http://photo-map.ru/"
+  },
+  {
+    "name": "ShadeMap",
+    "description": "ShadeMap is a global simulation of mountain, building & tree shadows for a given date & time. Base data is free, but users can buy 30cm accurate data per sq km for areas of special focus.",
+    "url": "https://shademap.app"
+  },
+  {
+    "name": "Shadow Finder",
+    "description": "To analyse shadows in source imagery, Shadow Finder maps all points on the earth where a shadow of given length could occur at a given date & time, IF the height of the object casting it is known.",
+    "url": "https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb"
+  },
+  {
+    "name": "ShadowMap",
+    "description": "Global map of 3D buildlings and the shadows they cast at a specific time a day",
+    "url": "https://app.shadowmap.org/"
+  },
+  {
+    "name": "SunCalc",
+    "description": "Suncalc models the relationship between the date, time of day, the geographic location of a place, and the position of the sun in the sky, together with the length & direction of the shadows it casts.",
+    "url": "https://www.suncalc.org"
+  },
+  {
+    "name": "Amazon Rekognition",
+    "description": "Check how similar two faces are",
+    "url": "https://aws.amazon.com/rekognition/"
+  },
+  {
+    "name": "Azure AI Video Indexer",
+    "description": "AI video tool for facial detection and other types of insights.",
+    "url": "https://vi.microsoft.com/en-us"
+  },
+  {
+    "name": "FaceCheck.ID",
+    "description": "A facial recognition search engine that tries to find photos of people that look similar to a person of interest.",
+    "url": "https://facecheck.id/"
+  },
+  {
+    "name": "GFPGAN",
+    "description": "Practical face restoration algorithm for *old photos* or *AI-generated faces*",
+    "url": "https://replicate.com/tencentarc/gfpgan"
+  },
+  {
+    "name": "PimEyes",
+    "description": "An AI-powered facial recognition reverse image search tool.",
+    "url": "https://pimeyes.com/en"
+  },
+  {
+    "name": "Search4Faces",
+    "description": "Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)",
+    "url": "https://search4faces.com"
+  },
+  {
+    "name": "VFF",
+    "description": "VGG Face Finder (VFF) Engine  Visual Geometry Group and released under the BSD-2 clause. VFF is a web application that serves as a web engine to perform searches for faces over an user-defined image dataset. It is based on the original application created by VGG to perform visual searchers over a large dataset of images from BBC News.",
+    "url": "https://www.robots.ox.ac.uk/~vgg/software/vff/"
+  },
+  {
+    "name": "AmIReal",
+    "description": "Github - GAN detector detects if faces were generated by ThisPersonDoesNotExist",
+    "url": "https://seintpl.github.io/AmIReal/"
+  },
+  {
+    "name": "AutoStitch",
+    "description": "Autostitch is a free tool for seamlessly combining multiple photos into a single panoramic image, making it ideal for creating wide-angle photography without needing specialized equipment.",
+    "url": "https://mattabrown.github.io/autostitch.html"
+  },
+  {
+    "name": "Cleanup.Pictures",
+    "description": "Web tool for quickly removing objects from an image.",
+    "url": "https://cleanup.pictures/"
+  },
+  {
+    "name": "fdupes",
+    "description": "Github - Locating exact matches of duplicate files.",
+    "url": "https://github.com/adrianlopezroche/fdupes"
+  },
+  {
+    "name": "Forensically",
+    "description": "A collection of web-based image forensics tools. Can identify fake or doctored images.",
+    "url": "https://29a.ch/photo-forensics/#forensic-magnifier"
+  },
+  
